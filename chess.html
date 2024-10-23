@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Xadrez</title>
+    <link rel="stylesheet" href="chess.css">
+</head>
+<body>
+    <div id="board"></div>
+    <button id="restartButton">Reiniciar Jogo</button>
+    <div id="promotionModal" class="modal">
+        <div class="modal-content">
+            <p>Escolha uma peça para promoção:</p>
+            <button class="promotionOption" data-piece="Q">Rainha</button>
+            <button class="promotionOption" data-piece="R">Torre</button>
+            <button class="promotionOption" data-piece="B">Bispo</button>
+            <button class="promotionOption" data-piece="N">Cavalo</button>
+        </div>
+    </div>
+    <script src="chess.js"></script>
+</body>
+</html>

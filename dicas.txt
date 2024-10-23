@@ -1,0 +1,14 @@
+flex-start: os itens são alinhados à parte superior do contêiner.
+flex-end: os itens são alinhados à parte inferior do contêiner.
+center: os itens são alinhados no centro vertical do contêiner.
+space-between: Os itens são exibidos com espaçamento igual entre eles.
+space-around: os itens são exibidos com espaçamento igual ao seu redor.
+baseline: os itens são exibidos na linha de base do contêiner.
+stretch: os itens são esticados para caber no contêiner.
+row: Itens são posicionados na mesma direção do texto.
+row-reverse: Itens são posicionados na direção oposta ao texto.
+column: Itens são posicionados de cima para baixo.
+column-reverse: Os itens são posicionados de baixo para cima.
+nowrap: Todos os itens são apertados em uma única linha.
+wrap: Itens se separam em linhas adicionais.
+wrap-reverse: Os itens são separados em linhas adicionais no reverso.
